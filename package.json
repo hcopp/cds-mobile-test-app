@@ -38,6 +38,6 @@
     "@react-native-community/cli": "^20.1.0"
   },
   "private": true,
-  "name": "cds-mobile-v53",
+  "name": "test-cds-mobile-app",
   "version": "1.0.0"
 }
