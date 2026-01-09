@@ -1,0 +1,40 @@
+{
+  "license": "0BSD",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "53.0.20",
+    "expo-status-bar": "2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.6",
+    "react-native-svg": "15.11.2",
+    "lottie-react-native": "7.3.4",
+    "@coinbase/cds-common": "8.32.1",
+    "@coinbase/cds-mobile": "8.32.1",
+    "@coinbase/cds-mobile-visualization": "3.4.0-beta.11",
+    "react-native-screens": "4.11.1",
+    "@dotlottie/react-player": "1.6.1",
+    "@react-navigation/stack": "6.4.1",
+    "react-native-reanimated": "3.17.5",
+    "@react-navigation/native": "6.1.17",
+    "react-native-date-picker": "5.0.13",
+    "@lottiefiles/dotlottie-react": "0.6.5",
+    "react-native-gesture-handler": "2.24.0",
+    "react-native-linear-gradient": "2.8.3",
+    "@react-navigation/native-stack": "6.9.26",
+    "react-native-safe-area-context": "5.4.0",
+    "@lottiefiles/react-lottie-player": "3.5.3",
+    "react-native-inappbrowser-reborn": "3.7.0",
+    "react-native-navigation-bar-color": "2.0.2",
+    "@shopify/react-native-skia": "2.3.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
