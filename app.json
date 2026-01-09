@@ -21,7 +21,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.hcoppcb.snack9c3d0dff29464009b5b3f62f22659b71"
     },
     "web": {
       "favicon": "./assets/favicon.png"
