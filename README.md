@@ -1,11 +1,84 @@
-# Sample Snack app
+# CDS Mobile Test App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A simple test application for experimenting with `@coinbase/cds-mobile` and `@coinbase/cds-mobile-visualization` components using the React Native New Architecture.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Tech Stack
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- **Expo SDK 53** with New Architecture enabled
+- **React Native 0.79.6** (Fabric + TurboModules)
+- **React 19**
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Prerequisites
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- Node.js (v18 or later recommended)
+- Yarn package manager
+- iOS Simulator (macOS) or Android Emulator
+- [Expo Go](https://expo.dev/client) app on your device (for quick testing)
+
+## Getting Started
+
+### 1. Install dependencies
+
+```bash
+yarn install
+```
+
+### 2. Start the development server
+
+```bash
+yarn start
+```
+
+This will start the Metro bundler and display a QR code. You can:
+- Press `i` to open in iOS Simulator
+- Press `a` to open in Android Emulator
+- Scan the QR code with Expo Go on your device
+
+### 3. Run on a specific platform (with native build)
+
+For a full development build with native debugging:
+
+```bash
+# iOS
+yarn ios
+
+# Android
+yarn android
+```
+
+## Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `yarn start` | Start the Expo development server |
+| `yarn ios` | Build and run on iOS (requires Xcode) |
+| `yarn android` | Build and run on Android (requires Android Studio) |
+| `yarn web` | Start the web version |
+
+## Debugging
+
+- Press `j` in the Metro terminal to open the JavaScript debugger
+- Press `m` to toggle the developer menu
+- Press `r` to reload the app
+
+For native crash logs:
+
+```bash
+npx react-native log-ios
+# or
+npx react-native log-android
+```
+
+## Project Structure
+
+```
+├── App.js          # Main application entry point
+├── index.js        # Expo entry file
+├── app.json        # Expo configuration (New Architecture enabled)
+└── package.json    # Dependencies and scripts
+```
+
+## Notes
+
+- The New Architecture is enabled via `"newArchEnabled": true` in `app.json`
+- Some peer dependency warnings may appear during install - these are generally safe to ignore for testing purposes
